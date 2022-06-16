@@ -13,10 +13,10 @@ function HeaderBar() {
     return (
         <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark">
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-            <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-center">
+            <Navbar.Collapse id="basic-navbar-nav" className="d-flex align-items-center justify-content-center">
                 <Nav>
-                    <Nav.Link variant='tester' href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Projects</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
                     <Nav.Link href={`${process.env.PUBLIC_URL}/assets/files/resume/Bradley Potzka Resume.pdf`} target={"_blank"} rel='noreferrer'>Résumé</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

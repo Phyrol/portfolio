@@ -1,0 +1,23 @@
+.main_container {
+    width: 63vw;
+    background-color: burlywood;
+}
+
+.section_container {
+    color:cyan;
+    background-color: black;
+}
+
+.section_container > div > h1 {
+    font-size: 65px;
+    color:red;
+}
+
+.title_container {
+    padding: 25px;
+}
+
+.link_container > p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
