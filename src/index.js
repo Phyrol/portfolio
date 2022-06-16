@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
 import Home from './HomePage/Home';
 import reportWebVitals from './reportWebVitals';
 import HeaderBar from './Shared/HeaderBar/HeaderBar';
@@ -9,8 +10,7 @@ import HeaderBar from './Shared/HeaderBar/HeaderBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HeaderBar />
-    <Home />
+    <App />
   </React.StrictMode>
 );
 

@@ -4,8 +4,8 @@ import HeaderBar from '../Shared/HeaderBar/HeaderBar';
 
 function Home() {
     return (
-        <div>
-            <h1> Home Page </h1>
+        <div className='justify-content-center'>
+            <h1 >Bradley Potzka</h1>
         </div>
     );
 }

@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
+import Home from './HomePage/Home';
+import HeaderBar from './Shared/HeaderBar/HeaderBar';
 
 function App() {
   return (
     <div>
-      <h1> Hello, world! </h1>
+      <HeaderBar />
+      <Home />
     </div>
   );
 }
