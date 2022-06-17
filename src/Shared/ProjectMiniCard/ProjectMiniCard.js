@@ -48,7 +48,7 @@ function ProjectMiniCard(props) {
                 <Card.Link href={`${props.download}`} target={"_blank"} rel='noreferrer'>Download</Card.Link>
             </Card.Body> 
         </Col>
-console.log(props.download)
+
 return(
     <div>
         <Card border='dark'>
