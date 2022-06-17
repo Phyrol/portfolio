@@ -4,8 +4,10 @@
 }
 
 .section_container {
-    color:cyan;
+    color:red;
     background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .section_container > div > h1 {
@@ -15,9 +17,4 @@
 
 .title_container {
     padding: 25px;
-}
-
-.link_container > p {
-    padding-left: 15px;
-    padding-right: 15px;
 }
