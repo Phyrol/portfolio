@@ -45,14 +45,10 @@ function ProjectMiniCard(props) {
                         </Card.Text>
                     </li>
                 </ul>
-                <a href={props.download} target={"_blank"} rel='noreferrer'>
-                    <p>Download</p>
-                    <Card.Link href={props.download} target={"_blank"} rel='noreferrer'>Download</Card.Link>
-                </a>
-                <Card.Link href={props.download} target={"_blank"} rel='noreferrer'>Download</Card.Link>
+                <Card.Link href={`${props.download}`} target={"_blank"} rel='noreferrer'>Download</Card.Link>
             </Card.Body> 
         </Col>
-
+console.log(props.download)
 return(
     <div>
         <Card border='dark'>

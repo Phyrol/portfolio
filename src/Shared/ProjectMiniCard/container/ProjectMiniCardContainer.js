@@ -120,6 +120,7 @@ return (
         platform={cardObj.platform} 
         position={cardObj.position} 
         genre={cardObj.genre} 
+        download={cardObj.download}
         imageIsLeft={props.proj % 2 === 0 ? true : false}
     />
 );
