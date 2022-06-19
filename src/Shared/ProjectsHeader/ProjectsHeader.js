@@ -3,7 +3,7 @@ import './ProjectsHeader.css';
 
 function ProjectsHeader() {
     return(
-        <div className='d-flex align-items-center justify-content-center'>
+        <div>
             <a href='#projects' className='text-decoration-none'>
                 <h1>Projects</h1>
             </a>

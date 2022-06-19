@@ -11,52 +11,72 @@ import WorkContainer from '../Shared/Work/container/WorkContainer';
 function Home() {
     return (
         <Container fluid className='main_container d-flex align-items-center justify-content-center'>
-            <div>
-                <div className='section_container'>
-                    <div className='title_container d-flex align-items-center justify-content-center'>
-                        <h1>Bradley Potzka</h1>
+            <div className='hero_container'>
+                <section id='header' className='hero_StyledHeroSection'>
+                    <div className='section_container'>
+                        <div className='title_container d-flex align-items-center justify-content-center'>
+                            <h1>Bradley Potzka</h1>
+                        </div>
+                        <div className='d-flex align-items-center justify-content-center'>
+                            <p>Software Developer, Game Developer</p>
+                        </div>
+                        <SocialNav />
                     </div>
-                    <div className='d-flex align-items-center justify-content-center'>
-                        <p>Software Developer, Game Developer</p>
+                </section>
+                
+                <section id='about' className='hero_StyledAboutSection'>
+                    <div className='numbered-heading'>
+                        <h2>About Me</h2>
                     </div>
-                    <SocialNav />
-                </div>
-                <div className='section_container d-flex align-items-center justify-content-center'>
-                    <AboutMe />
-                </div>
-                <div className='section_container d-flex align-items-center justify-content-center'>
-                    <WorkContainer />
-                </div>
-                <div className='section_container'>
-                    <ProjectsHeader />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={0} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={1} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={2} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={3} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={4} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={5} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={6} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={7} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={8} />
-                </div>
+                    <div className='section_container d-flex align-items-center justify-content-center'>
+                        <AboutMe />
+                    </div>
+                </section>
+                
+                <section id='work' className='hero_StyledWorkSection'>
+                    <div className='numbered-heading'>
+                        <h2>Where I've Worked</h2>
+                    </div>
+                    <div className='section_container d-flex align-items-center justify-content-center'>
+                        <div className='work_container'>
+                            <WorkContainer />
+                        </div>
+                    </div>
+                </section>
+                
+                <section id='projects' className='hero_StyledProjectSection'>
+                    <div className='numbered-heading'>
+                        <h2>Projects</h2>
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={0} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={1} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={2} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={3} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={4} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={5} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={6} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={7} />
+                    </div>
+                    <div className='section_container'>
+                        <ProjectMiniCardContainer proj={8} />
+                    </div>
+                </section>
+
             </div>
         </Container>
     );

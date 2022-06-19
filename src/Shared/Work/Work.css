@@ -9,4 +9,5 @@
 .job-panels {
     display: flex;
     width: 75% !important;
+    padding-left: 10px;
 }

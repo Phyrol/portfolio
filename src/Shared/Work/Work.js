@@ -11,14 +11,15 @@ function Work(props) {
     //     </div>
 
     return(
-        <div className='work'>
-            <div className='job-tabs'>
-                <TabListContainer onClick={props.onClick} activeTab={props.activeTab}/>
+        <div>
+            <div className='work'>
+                <div className='job-tabs'>
+                    <TabListContainer onClick={props.onClick} activeTab={props.activeTab}/>
+                </div>
+                <div className='job-panels'>
+                    <WorkInfoContainer activeTab={props.activeTab}/>
+                </div>
             </div>
-            <div className='job-panels'>
-                <WorkInfoContainer activeTab={props.activeTab}/>
-            </div>
-
 
             {/* <div role='tablist'>
                 <div className='job-button'>

@@ -1,6 +1,7 @@
 :root {
     --transition: all 0.2s;
     --transform: scale(1.015);
+    --styled-padding: 200px;
 }
 
 .main_container {
@@ -8,11 +9,35 @@
     background-color: burlywood;
 }
 
+.hero_container {
+    width: 100%;
+}
+
+.hero_StyledHeroSection {
+    padding-bottom: var(--styled-padding);
+}
+
+.hero_StyledAboutSection {
+    padding-bottom: var(--styled-padding);
+}
+
+.hero_StyledWorkSection {
+    padding-bottom: var(--styled-padding);
+}
+
+.hero_StyledProjectSection {
+    padding-bottom: var(--styled-padding);
+}
+
 .section_container {
     color:red;
     background-color: black;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
+}
+
+.section_container > div {
+    height:100%;
 }
 
 .section_container > div > h1 {
@@ -22,4 +47,19 @@
 
 .title_container {
     padding: 25px;
+}
+
+.work_container {
+    width: 70%;
+    height: 100%;
+}
+
+.numbered-heading {
+    display: flex;
+    align-items: center;
+}
+
+.numbered-heading > h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }

@@ -1,4 +1,9 @@
+.job-button {
+    transition: var(--transition);
+}
+
 .job-button > button {
+    width:100%;
     background:transparent;
     color:red;
     transition: var(--transition);
