@@ -6,14 +6,18 @@ function ProjectMiniCard(props) {
 
     let thumbnailDisplay =
         <Col md='5' className='d-flex align-items-center justify-content-center'>
-            <Card.Img className='thumbnail' src={props.src} />
+            <a href={`${props.download}`} target={"_blank"} rel='noreferrer'>
+                <Card.Img className='thumbnail' src={props.src} />
+            </a>            
         </Col>
 
     let infoDisplay =
-        <Col md='7'>
+        <Col md='7' className='d-flex align-items-center justify-content-center test'>
             <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <ul>
+                <a href={`${props.download}`} target={"_blank"} rel='noreferrer' className='text-decoration-none'>
+                    <Card.Title className='title'>{props.title}</Card.Title>
+                </a>
+                <ul className='text'>
                     <li>
                         <Card.Text>
                             {props.tools}
@@ -45,6 +49,7 @@ function ProjectMiniCard(props) {
                         </Card.Text>
                     </li>
                 </ul>
+                <Card.Link href={`${props.github}`} target={"_blank"} rel='noreferrer'>GitHub</Card.Link>
                 <Card.Link href={`${props.download}`} target={"_blank"} rel='noreferrer'>Download</Card.Link>
             </Card.Body> 
         </Col>

@@ -12,6 +12,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Systems Producer/Engineer, worked on enemy movement, etc', 
         genre: 'Shooter', 
+        github: 'https://github.com/GDCASU/Firefox',
         download: 'https://heatwave-studios.itch.io/aegis-initiative', 
         thumbnail: `${projDir}/aegis_initiative/aegis_initiative_thumbnail.jpg`
     },
@@ -23,6 +24,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Gameplay engineer, focused on combat, enemy AI, and connecting different Unity Store assets', 
         genre: 'Action RPG', 
+        github: 'https://github.com/MrSquakie/My-Little-Dark-Lord',
         download: 'https://phyrol.itch.io/my-little-dark-lord', 
         thumbnail: `${projDir}/my_little_dark_lord/my_little_dark_lord_thumbnail.png`
     },
@@ -34,6 +36,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Team Lead/Gameplay Engineer, worked on the player, enemy AI, sound, and level details', 
         genre: 'Shooter', 
+        github: 'https://github.com/Phyrol/Night-in-the-Woods',
         download: 'https://phyrol.itch.io/night-in-the-woods', 
         thumbnail: `${projDir}/night_in_the_woods/Night_in_the_Woods_Thumbnail.png`
     },
@@ -45,6 +48,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Sole creator', 
         genre: 'Action', 
+        github: 'https://github.com/Phyrol/Adventure_Tim-e-',
         download: 'https://phyrol.itch.io/adventure-time', 
         thumbnail: `${projDir}/adventure_time/Adventure_Time_Thumbnail.png`
     },
@@ -56,6 +60,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Gameplay Engineer, created main menu and helped with ship physics for floating on water with waves', 
         genre: 'Adventure', 
+        github: 'https://github.com/Doughboy02/Lunchbox',
         download: 'https://phyrol.itch.io/lunchbox', 
         thumbnail: `${projDir}/lunchbox/lunchbox_thumbnail.png`
     },
@@ -67,6 +72,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Gameplay Engineer, created power-ups and traps for the player as well as the main/pause menus', 
         genre: 'Platformer', 
+        github: 'https://github.com/cdgonz115/LudumDare47_Speed3.0',
         download: 'https://cg115.itch.io/hyperloop', 
         thumbnail: `${projDir}/hyperloop/HyperLoop_Thumbnail.png`
     },
@@ -78,6 +84,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Gameplay Engineer, created moving obstacles and the general gameplay loop of collecting gems before the timer runs out', 
         genre: 'Platformer', 
+        github: 'https://github.com/MrSquakie/The-blob',
         download: 'https://phyrol.itch.io/the-blob', 
         thumbnail: `${projDir}/the_blob/The_Blob_Thumbnail.png`
     },
@@ -89,6 +96,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Team Lead/Gameplay Engineer, worked on enemy AI, player health system, level creation, and animations', 
         genre: 'Survival', 
+        github: 'https://github.com/Phyrol/Wrong-Turn',
         download: 'https://phyrol.itch.io/wrong-turn', 
         thumbnail: `${projDir}/wrong_turn/wrong_turn_thumbnail.png`
     },
@@ -100,6 +108,7 @@ const allProjects = [
         platform: 'PC', 
         position: 'Gameplay Engineer, created the enemy guard patrol/detection system, interactable objects, and shooting', 
         genre: 'Action RPG', 
+        github: 'https://github.com/cdgonz115/Cybob',
         download: 'https://phyrol.itch.io/cybob', 
         thumbnail: `${projDir}/cybob/cybob_thumbnail.png`
     },
@@ -120,6 +129,7 @@ return (
         platform={cardObj.platform} 
         position={cardObj.position} 
         genre={cardObj.genre} 
+        github={cardObj.github}
         download={cardObj.download}
         imageIsLeft={props.proj % 2 === 0 ? true : false}
     />

@@ -3,7 +3,7 @@ import './AboutMe.css';
 
 function AboutMe() {
     return (
-        <div>
+        <div className='about_me'>
             <div className='d-flex align-items-center justify-content-center'>
                 <h2>About Me</h2>
             </div>

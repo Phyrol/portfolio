@@ -1,4 +1,9 @@
 .link_container > p {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.link_container > a {
+    padding-left: 7px;
+    padding-right: 7px;
 }

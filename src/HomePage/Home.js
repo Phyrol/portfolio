@@ -20,7 +20,7 @@ function Home() {
                     </div>
                     <SocialNav />
                 </div>
-                <div className='section_container'>
+                <div className='section_container d-flex align-items-center justify-content-center'>
                     <AboutMe />
                 </div>
                 <div className='section_container'>
