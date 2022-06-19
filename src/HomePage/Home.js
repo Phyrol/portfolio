@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import AboutMe from '../Shared/AboutMe/AboutMe';
 import ProjectsHeader from '../Shared/ProjectsHeader/ProjectsHeader';
 import ProjectMiniCardContainer from '../Shared/ProjectMiniCard/container/ProjectMiniCardContainer';
+import WorkContainer from '../Shared/Work/container/WorkContainer';
 
 function Home() {
     return (
@@ -22,6 +23,9 @@ function Home() {
                 </div>
                 <div className='section_container d-flex align-items-center justify-content-center'>
                     <AboutMe />
+                </div>
+                <div className='section_container d-flex align-items-center justify-content-center'>
+                    <WorkContainer />
                 </div>
                 <div className='section_container'>
                     <ProjectsHeader />

@@ -1,0 +1,12 @@
+.work {
+    display: flex;
+}
+
+.job-tabs {
+    width: 25% !important;
+}
+
+.job-panels {
+    display: flex;
+    width: 75% !important;
+}

@@ -1,0 +1,7 @@
+.job-panel {
+    color: cyan;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right !important;
+    float:right !important;
+}

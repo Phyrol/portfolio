@@ -12,17 +12,19 @@ function ProjectMiniCard(props) {
         </Col>
 
     let infoDisplay =
-        <Col md='7' className='d-flex align-items-center justify-content-center test'>
+        <Col md='7' className='d-flex align-items-center justify-content-center info'>
             <Card.Body>
-                <a href={`${props.download}`} target={"_blank"} rel='noreferrer' className='text-decoration-none'>
-                    <Card.Title className='title'>{props.title}</Card.Title>
-                </a>
+                <div className='d-flex align-items-center'>
+                    <a href={`${props.download}`} target={"_blank"} rel='noreferrer' className='text-decoration-none'>
+                        <Card.Title className='title'>{props.title}</Card.Title>
+                    </a>
+
+                    <Card.Text className='tools'>
+                        {props.tools}
+                    </Card.Text>
+                </div>              
+                
                 <ul className='text'>
-                    <li>
-                        <Card.Text>
-                            {props.tools}
-                        </Card.Text>
-                    </li>
                     <li>
                         <Card.Text>
                             Shipped: {props.shipped}

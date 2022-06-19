@@ -1,17 +1,17 @@
 .thumbnail {
     padding-left: 5px;
     padding-right: 5px;
-    transition: 0.2s;
+    transition: var(--transition);
 }
 
 .thumbnail:hover {
-    transform: scale(1.015);
+    transform: var(--transform);
 }
 
 .title {
     color: black;
     font-size: 35px;
-    transition: 0.2s;
+    transition: var(--transition);
 }
 
 .title:hover {
@@ -22,7 +22,13 @@
     font-size: 20px;
 }
 
-.test {
+.tools {
+    padding-left: 20px;
+    padding-top: 2px;
+    font-style: italic;
+}
+
+.info {
     padding-left: 5%;
     background-color: yellow;
 }

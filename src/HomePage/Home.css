@@ -1,3 +1,8 @@
+:root {
+    --transition: all 0.2s;
+    --transform: scale(1.015);
+}
+
 .main_container {
     width: 63vw;
     background-color: burlywood;

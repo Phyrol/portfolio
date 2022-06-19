@@ -1,0 +1,14 @@
+.job-button > button {
+    background:transparent;
+    color:red;
+    transition: var(--transition);
+}
+
+.job-button:hover {
+    background:blue;
+}
+
+.active {
+    color:green !important;
+    background: purple !important;
+}
