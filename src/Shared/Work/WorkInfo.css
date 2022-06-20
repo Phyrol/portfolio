@@ -16,6 +16,26 @@
     color: orange !important;
 }
 
+.job-panel ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.job-panel ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: green;
+}
+
 .range {
     font-size: small;
     color:gray;

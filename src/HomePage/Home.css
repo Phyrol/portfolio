@@ -11,6 +11,10 @@
 .main_container {
     width: 63vw;
     background-color: burlywood;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
 }
 
 .hero_container {
@@ -61,6 +65,27 @@
 .numbered-heading {
     display: flex;
     align-items: center;
+}
+
+.numbered-heading::before {
+    position: relative;
+    bottom: 4px;
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: green;
+    font-weight: 400;
+}
+
+.numbered-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: cyan;
 }
 
 .numbered-heading > h2 {
