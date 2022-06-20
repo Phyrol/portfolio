@@ -1,9 +1,6 @@
-.link_container > p {
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.link_container > a {
-    padding-left: 7px;
-    padding-right: 7px;
+.link_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: nowrap;
 }

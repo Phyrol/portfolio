@@ -5,7 +5,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 function ProjectMiniCard(props) {
 
     let thumbnailDisplay =
-        <Col md='5' className='d-flex align-items-center justify-content-center'>
+        <Col md='4' className='d-flex align-items-center justify-content-center'>
             <a href={`${props.download}`} target={"_blank"} rel='noreferrer'>
                 <Card.Img className='thumbnail' src={props.src} />
             </a>            

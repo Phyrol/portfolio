@@ -9,7 +9,7 @@ import Work from '../Shared/Work/Work';
 function Home() {
     return (
         <Container fluid className='main_container d-flex align-items-center justify-content-center'>
-            <div className='hero_container'>
+            <main className='hero_container'>
                 <section id='header' className='hero_StyledHeroSection'>
                     <div className='section_container'>
                         <div className='title_container d-flex align-items-center justify-content-center'>
@@ -75,7 +75,7 @@ function Home() {
                     </div>
                 </section>
 
-            </div>
+            </main>
         </Container>
     );
 }
