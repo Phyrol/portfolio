@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ProjectMiniCard.css';
-import { Card, Button, Col, Row, ListGroup } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 
 function ProjectMiniCard(props) {
 

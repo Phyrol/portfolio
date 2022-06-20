@@ -1,13 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import WorkInfo from '../WorkInfo';
-import { allJobs } from './WorkContainer';
 
 function WorkInfoContainer(props) {
 
-    const activeJob = allJobs[props.activeTab];
+    const activeJob = props.allJobs[props.activeTab];
+
+    console.log(props.activeTab);
 
     return(
-            <WorkInfo company={activeJob.company} position={activeJob.position} date={activeJob.date} responsibilities={activeJob.responsibilities} />
+            <WorkInfo 
+                company={activeJob.company} 
+                position={activeJob.position} 
+                link={activeJob.link} 
+                date={activeJob.date} 
+                responsibilities={activeJob.responsibilities}
+            />
     );
 }
 

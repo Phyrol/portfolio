@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
-import HeaderBar from '../Shared/HeaderBar/HeaderBar';
 import SocialNav from '../Shared/SocialNav/SocialNav';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import AboutMe from '../Shared/AboutMe/AboutMe';
-import ProjectsHeader from '../Shared/ProjectsHeader/ProjectsHeader';
 import ProjectMiniCardContainer from '../Shared/ProjectMiniCard/container/ProjectMiniCardContainer';
-import WorkContainer from '../Shared/Work/container/WorkContainer';
+import Work from '../Shared/Work/Work';
 
 function Home() {
     return (
@@ -39,7 +37,7 @@ function Home() {
                     </div>
                     <div className='section_container d-flex align-items-center justify-content-center'>
                         <div className='work_container'>
-                            <WorkContainer />
+                            <Work />
                         </div>
                     </div>
                 </section>

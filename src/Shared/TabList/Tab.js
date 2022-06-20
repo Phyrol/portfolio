@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Tab.css';
 
-export default function Tab(props) {
+function Tab(props) {
 
     return (
-        <div className='job-button'>
-            <button id={`tab-${props.id}`} role='tab' aria-controls={`panel-${props.id}`} onClick={props.onClick} className={props.isActive ? 'active' : ''}>
-                {props.company}
-            </button>
-        </div>
+        <button
+            label={props.id}
+            id={`tab-${props.id}`} 
+            role='tab' 
+            aria-selected={props.isActive ? true : false}
+            tabIndex={props.isActive ? 0 : -1}
+            aria-controls={`panel-${props.id}`} 
+            onClick={props.onClick} 
+            className={props.isActive ? 'active job-button' : 'job-button'}
+        >
+            <span>{props.company}</span>
+        </button>
     );
 }
+
+export default Tab;

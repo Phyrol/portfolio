@@ -1,12 +1,27 @@
-.job-button {
-    transition: var(--transition);
+@media (max-width: 768px)
+{
+    .job-button {
+        padding: 0px 15px 2px;
+    }
 }
 
-.job-button > button {
+
+.job-button {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
     width:100%;
-    background:transparent;
+    height: 42px;
+    padding: 0px 20px 2px;
+    border-left: 2px solid red;
+    background-color:transparent;
     color:red;
+    text-align: left;
+    white-space: nowrap;
     transition: var(--transition);
+    border:0px;
+    border-radius: 0px;
 }
 
 .job-button:hover {
