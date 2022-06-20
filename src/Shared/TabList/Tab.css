@@ -1,11 +1,3 @@
-@media (max-width: 768px)
-{
-    .job-button {
-        padding: 0px 15px 2px;
-    }
-}
-
-
 .job-button {
     text-decoration: none;
     position: relative;
@@ -31,4 +23,11 @@
 .active {
     color:green !important;
     background: purple !important;
+}
+
+@media (max-width: 768px)
+{
+    .job-button {
+        padding: 0px 15px 2px;
+    }
 }

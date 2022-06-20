@@ -4,7 +4,7 @@
 
 .job-tabs {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     width: max-content;
     padding: 0px;
     margin: 0px;
@@ -14,7 +14,19 @@
     display: flex;
     position: relative;
     background-color: black;
-    z-index: 2;
+    z-index: 6;
     width: 100%;
     margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .work {
+        display: block;
+    }
+}
+
+@media (min-width: 700px) {
+    .work {
+        min-height: 340px;
+    }
 }

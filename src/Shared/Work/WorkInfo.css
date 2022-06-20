@@ -2,13 +2,7 @@
     width: 100%;
     height: auto;
     padding: 10px 5px;
-    color: white;
     animation: fadeEffect var(--transition/2);
-}
-
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
 }
 
 .job-panel h3 {
@@ -18,8 +12,8 @@
     line-height: 1.3;
 }
 
-.job-panel p {
-    margin-left: 10px;
+.job-panel h3 .company {
+    color: orange !important;
 }
 
 .range {
@@ -29,4 +23,30 @@
 
 .description {
     color: gray;
+}
+
+.inline-link {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: var(--transition);
+    color: orange;
+}
+
+.inline-link::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
+    position: relative;
+    bottom: 0.37em;
+    background-color: red;
+    transition: var(--transition);
+    opacity: 0.5;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
