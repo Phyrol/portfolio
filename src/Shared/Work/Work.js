@@ -67,7 +67,6 @@ function Work() {
                         />
                     )
                 }
-                {/* <TabListContainer allJobs={allJobs} onClick={handleTabChange} activeTab={activeTab}/> */}
             </div>
             <div className='job-panels'>
                 {
@@ -84,7 +83,6 @@ function Work() {
                         />
                     )
                 }
-                {/* <WorkInfoContainer allJobs={allJobs} activeTab={activeTab}/> */}
             </div>
         </div>
     )

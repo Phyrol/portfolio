@@ -5,9 +5,11 @@ import HeaderBar from './Shared/HeaderBar/HeaderBar';
 
 function App() {
   return (
-    <div>
-      <HeaderBar />
-      <Home />
+    <div id='root'>
+      <div className='layout_StyledContent'>
+        <HeaderBar />
+        <Home />
+      </div>
     </div>
   );
 }

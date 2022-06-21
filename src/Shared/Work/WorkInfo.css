@@ -2,29 +2,38 @@
     width: 100%;
     height: auto;
     padding: 10px 5px;
-    animation: fadeEffect var(--transition/2);
+    animation: fadeEffect var(--transition);
 }
 
 .job-panel h3 {
-    margin-bottom: 2px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: var(--fz-xxl);
     font-weight: 500;
     line-height: 1.3;
 }
 
 .job-panel h3 .company {
-    color: orange !important;
+    color: var(--amranth-red);
 }
 
+.job-panel ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: var(--fz-lg);
+}
 
+.job-panel ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
 
 .range {
-    font-size: small;
-    color:gray;
-}
-
-.description {
-    color: gray;
+    margin-bottom: 25px !important;
+    color: var(--manatee);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
 }
 
 .inline-link {
@@ -33,19 +42,11 @@
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--transition);
-    color: orange;
+    color: var(--amranth-red);
 }
 
-.inline-link::after {
-    content: "";
-    display: block;
-    width: 0px;
-    height: 1px;
-    position: relative;
-    bottom: 0.37em;
-    background-color: red;
-    transition: var(--transition);
-    opacity: 0.5;
+.inline-link:hover {
+    color: var(--imperial-red);
 }
 
 @keyframes fadeEffect {

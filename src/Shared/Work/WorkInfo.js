@@ -13,17 +13,19 @@ function WorkInfo(props) {
                     </a>
                 </span>
             </h3>
-            
             <p className='range'>{props.date}</p>
-            <ul>
-                {
-                    props.responsibilities.map((element, index) =>
-                        <li key={index} className='description'>
-                            {element}
-                        </li>
-                    )
-                }
-            </ul>
+
+            <div>
+                <ul>
+                    {
+                        props.responsibilities.map((element, index) =>
+                            <li key={index} className='description'>
+                                {element}
+                            </li>
+                        )
+                    }
+                </ul>
+            </div>
         </div>
     );
 }

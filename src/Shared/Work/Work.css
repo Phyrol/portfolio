@@ -8,15 +8,14 @@
     width: max-content;
     padding: 0px;
     margin: 0px;
+    list-style: none;
 }
 
 .job-panels {
-    display: flex;
     position: relative;
-    background-color: black;
-    z-index: 6;
     width: 100%;
     margin-left: 20px;
+    z-index: 6;
 }
 
 @media (max-width: 600px) {

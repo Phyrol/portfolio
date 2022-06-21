@@ -1,6 +1,12 @@
-.link_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: nowrap;
+p > a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: var(--transition);
+    color: var(--amranth-red);
+}
+
+p > a:hover {
+    color: var(--imperial-red);
 }
