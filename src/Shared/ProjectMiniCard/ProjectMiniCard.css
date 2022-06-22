@@ -9,17 +9,13 @@
 }
 
 .title {
-    color: black;
+    color: var(--amranth-red);
     font-size: 35px;
     transition: var(--transition);
 }
 
 .title:hover {
-    color: green;
-}
-
-.text {
-    font-size: 20px;
+    color: var(--imperial-red);
 }
 
 .tools {
@@ -30,5 +26,8 @@
 
 .info {
     padding-left: 5%;
-    background-color: yellow;
+}
+
+.project-card {
+    background-color: var(--space-cadet);
 }

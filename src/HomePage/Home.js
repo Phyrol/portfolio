@@ -34,37 +34,39 @@ function Home() {
                 <Work />
             </section>
             
-            <section id='projects' className='hero_StyledProjectSection'>
-                <div className='numbered-heading'>
-                    <h2>Projects</h2>
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={0} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={1} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={2} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={3} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={4} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={5} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={6} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={7} />
-                </div>
-                <div className='section_container'>
-                    <ProjectMiniCardContainer proj={8} />
-                </div>
+            <section id='projects'>
+                
+                <h2 className='numbered-heading'>Projects</h2>
+
+                <ul className='project-list'>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={0} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={1} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={2} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={3} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={4} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={5} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={6} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={7} />
+                    </li>
+                    <li className='project-list-item'>
+                        <ProjectMiniCardContainer proj={8} />
+                    </li>
+                </ul>
             </section>
         </main>
     );

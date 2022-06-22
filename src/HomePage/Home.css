@@ -14,6 +14,12 @@ main.fillHeight {
     padding: 0px 150px;
 }
 
+section {
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
+}
+
 .hero_StyledHeroSection {
     display: flex;
     -webkit-box-pack: center;
@@ -66,12 +72,22 @@ main.fillHeight {
     gap: 50px;
 }
 
+.hero_StyledAboutSection li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--amranth-red);
+}
+
 .hero_StyledWorkSection {
     max-width: 800px;
 }
 
-.hero_StyledProjectSection {
-    padding-bottom: var(--styled-padding);
+.hero_StyledWorkSection li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--amranth-red);
 }
 
 .numbered-heading {
@@ -107,29 +123,14 @@ main.fillHeight {
     background-color: var(--lightest-space-cadet);
 }
 
-section {
-    margin: 0px auto;
-    padding: 100px 0px;
-}
-
-ul {
+.project-list {
+    list-style: none;
     padding: 0px;
     margin: 0px;
-    list-style: none;
-    font-size: 18px;
 }
 
-ul li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-}
-
-li::before {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: var(--amranth-red);
+.project-list-item:not(:last-of-type) {
+    margin-bottom: 100px;
 }
 
 @media (max-width: 1080px) {

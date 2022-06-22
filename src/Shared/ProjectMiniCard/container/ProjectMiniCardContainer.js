@@ -115,8 +115,7 @@ const allProjects = [
 ];
 
 function ProjectMiniCardContainer(props) {
-
-//let cardObj = allProjects.find(project => project.title === props.title);
+    
 let cardObj = allProjects[props.proj];
 
 return (

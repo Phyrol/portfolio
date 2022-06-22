@@ -12,7 +12,7 @@ function ProjectMiniCard(props) {
         </Col>
 
     let infoDisplay =
-        <Col md='7' className='d-flex align-items-center justify-content-center info'>
+        <Col md='6' className='d-flex align-items-center justify-content-center info'>
             <Card.Body>
                 <div className='d-flex align-items-center'>
                     <a href={`${props.download}`} target={"_blank"} rel='noreferrer' className='text-decoration-none'>
@@ -24,7 +24,7 @@ function ProjectMiniCard(props) {
                     </Card.Text>
                 </div>              
                 
-                <ul className='text'>
+                <ul>
                     <li>
                         <Card.Text>
                             Shipped: {props.shipped}
@@ -57,18 +57,16 @@ function ProjectMiniCard(props) {
         </Col>
 
 return(
-    <div>
-        <Card border='dark'>
-            <Row>
-                {props.imageIsLeft ?
-                    thumbnailDisplay : infoDisplay
-                }
-                {props.imageIsLeft ?
-                    infoDisplay : thumbnailDisplay
-                }
-            </Row>
-        </Card>
-    </div>
+    <Card className='project-card'>
+        <Row>
+            {props.imageIsLeft ?
+                thumbnailDisplay : infoDisplay
+            }
+            {props.imageIsLeft ?
+                infoDisplay : thumbnailDisplay
+            }
+        </Row>
+    </Card>
 );
 }
 
