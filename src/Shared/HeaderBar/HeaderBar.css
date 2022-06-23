@@ -1,0 +1,118 @@
+.nav_StyledHeader {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center !important;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: var(--space-cadet);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+}
+
+.nav_StyledNav {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0px 50px;
+    width: 100%;
+    color: var(--lightest-slate);
+    font-family: var(--font-mono);
+    counter-reset: item 0;
+    z-index: 12;
+}
+
+.nav_StyledLinks {
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nav_StyledLinks ol {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.nav_StyledLinks ol li {
+    margin: 0px 5px;
+    position: relative;
+    counter-increment: item 1;
+    font-size: var(--fz-sm);
+}
+
+.nav_StyledLinks ol li a::before {
+    content: "0" counter(item) ".";
+    margin-right: 5px;
+    color: var(--amranth-red);
+    font-size: var(--fz-xs);
+    text-align: right;
+}
+
+.nav_StyledLinks ol li a {
+    padding: 10px 20px 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: var(--transition);
+}
+
+.nav_StyledLinks ol li a:hover {
+    color: var(--amranth-red);
+}
+
+.nav_StyledImages {
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    align-items: center;
+}
+
+.nav_StyledImages a:not(:first-of-type) {
+    padding-left: 15px;
+}
+
+.header-image {
+    width: 24px;
+    height: 24px;
+}
+
+.resume-button {
+    color: var(--amranth-red);
+    background-color: transparent;
+    border: 1px solid var(--amranth-red);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 15px;
+    font-size: var(--fz-sm);
+}
+
+.resume-button:hover {
+    color: var(--amranth-red);
+    background-color: var(--light-space-cadet);
+}
