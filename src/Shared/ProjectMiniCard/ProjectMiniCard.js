@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjectMiniCard.css';
-import { Card, Col, Row } from 'react-bootstrap';
 import { LinkExternalIcon, MarkGithubIcon } from '@primer/octicons-react';
 
 function ProjectMiniCard(props) {

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import SocialNav from '../Shared/SocialNav/SocialNav';
-import { Container } from 'react-bootstrap';
 import AboutMe from '../Shared/AboutMe/AboutMe';
 import ProjectMiniCardContainer from '../Shared/ProjectMiniCard/container/ProjectMiniCardContainer';
 import Work from '../Shared/Work/Work';

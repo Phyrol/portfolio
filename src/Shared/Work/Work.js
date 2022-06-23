@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Work.css';
-import TabListContainer from '../TabList/container/TabListContainer';
-import WorkInfoContainer from './container/WorkInfoContainer';
 import Tab from '../TabList/Tab';
 import WorkInfo from './WorkInfo';
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ProjectMiniCard from '../ProjectMiniCard';
 
 const projDir = `${process.env.PUBLIC_URL}/assets/images/projects/games`;

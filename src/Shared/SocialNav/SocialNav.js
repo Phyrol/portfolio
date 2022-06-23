@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import AccordionHeader from 'react-bootstrap/esm/AccordionHeader';
+import React from 'react';
 import './SocialNav.css';
 
 function SocialNav() {

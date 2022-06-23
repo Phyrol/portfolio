@@ -1,12 +1,4 @@
 import React, { useState } from 'react';
-
-import Button from 'react-bootstrap/Button';
-import { Nav } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
 import './HeaderBar.css';
 
 function HeaderBar() {
