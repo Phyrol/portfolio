@@ -6,8 +6,8 @@ import HeaderBar from '../HeaderBar';
 function HeaderBarContainer() {
 
     // 0 = top of page
-    // 1 = scroll down
-    // 2 = scroll up
+    // 1 = user scrolling down
+    // 2 = user scrolling up
     const [scrollDir, setScrollDir] = useState(0);
 
     useEffect(() => {

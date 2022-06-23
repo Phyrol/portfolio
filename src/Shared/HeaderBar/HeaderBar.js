@@ -1,4 +1,5 @@
 import React from 'react';
+import HamburgerContainer from './container/HamburgerContainer';
 import './HeaderBar.css';
 
 function HeaderBar(props) {
@@ -36,17 +37,7 @@ function HeaderBar(props) {
                     </a>
                 </div>
 
-                <div className='nav_StyledMenu'>
-                    <div>
-                        <button aria-label='Menu' className='menu_StyledHamburgerButton'>
-                            <div className='ham-box'>
-                                <div className='ham-box-inner'>
-                                </div>
-                            </div>
-                        </button>
-
-                    </div>
-                </div>
+                <HamburgerContainer />
             </nav>
         </header>
     );

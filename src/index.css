@@ -11,6 +11,10 @@
   line-height: 1.3;
 }
 
+body.blur {
+  overflow: hidden;
+}
+
 h1 {
   margin: 0px 0px 10px;
   font-weight: 600;
