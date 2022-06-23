@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer_StyledCredit {
+    color: var(--light-space_cadet);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+    line-height: 1;
+}
+
+.footer_StyledCredit div {
+    padding-bottom: 15px;
+}
+
+.footer_StyledCredit a:hover {
+    color: var(--amranth-red);
+}
