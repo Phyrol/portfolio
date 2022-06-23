@@ -35,6 +35,18 @@ function HeaderBar() {
                         <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/LinkedIn/linkedIn.png`} />
                     </a>
                 </div>
+
+                <div className='nav_StyledMenu'>
+                    <div>
+                        <button aria-label='Menu' className='menu_StyledHamburgerButton'>
+                            <div className='ham-box'>
+                                <div className='ham-box-inner'>
+                                </div>
+                            </div>
+                        </button>
+                        
+                    </div>
+                </div>
             </nav>
         </header>
     );
