@@ -1,15 +1,15 @@
 :root {
-  --dark-space-cadet: ##242538;
-  --space-cadet: #2B2D42;
-  --light-space-cadet: #373956;
-  --lightest-space-cadet: #3A3C5B;
+  --dark-space-cadet: #151620;
+  --space-cadet: #191A25;
+  --light-space-cadet: #212331;
+  --lightest-space-cadet: #282A3B;
   --space-cadet-shadow: rgba(70, 72, 110, 0.7);
-  --manatee: #8D99AE;
+  --manatee: #96A4BA;
   --cultured: #EDF2F4;
   --imperial-red: #EF233C;
-  --amranth-red: #D90429;
+  --amranth-red: #E4052A;
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
-  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
   --fz-xxs: 12px;
   --fz-xs: 13px;
   --fz-sm: 14px;

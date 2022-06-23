@@ -1,7 +1,7 @@
 .job-panel {
     width: 100%;
     height: auto;
-    padding: 10px 5px;
+    padding: 0px 5px;
     animation: fadeEffect var(--transition);
 }
 

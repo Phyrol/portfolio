@@ -14,7 +14,7 @@ function Home() {
                     <h1>Hi, my name is</h1>
                 </div>
                 <div>
-                    <h2 className='big-heading'>Bradley Potzka</h2>
+                    <h2 className='biggest-heading'>Bradley Potzka</h2>
                 </div>
                 <div>
                     <h3 className='big-heading'>Software Developer, Game Developer</h3>

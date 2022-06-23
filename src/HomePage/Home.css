@@ -35,7 +35,7 @@ section {
     margin: 0px 0px 30px 4px;
     color: var(--imperial-red);
     font-family: var(--font-mono);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    font-size: clamp(var(--fz-md), 5vw, var(--fz-lg));
     font-weight: 400;
 }
 
@@ -47,7 +47,7 @@ section {
   }
 
 .hero_StyledHeroSection h3 {
-    margin-top: 10px;
+    margin: 10px 0px;
     color: var(--manatee);
     line-height: 0.9;
 }
@@ -58,6 +58,11 @@ section {
 }
 
 .big-heading {
+    margin: 0px;
+    font-size: clamp(28px, 8vw, 55px);
+}
+
+.biggest-heading {
     margin: 0px;
     font-size: clamp(40px, 8vw, 80px);
 }
@@ -116,11 +121,11 @@ section {
     content: "";
     display: block;
     position: relative;
-    top: -5px;
+    top: 0px;
     width: 300px;
     height: 1px;
     margin-left: 20px;
-    background-color: var(--lightest-space-cadet);
+    background-color: var(--space-cadet-shadow);
 }
 
 .project-list {
