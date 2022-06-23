@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './HeaderBar.css';
 
-function HeaderBar() {
+function HeaderBar(props) {
     return (
-        <header className='nav_StyledHeader'>
+        <header className={`${props.scrollDir === 0 && 'nav_StyledHeader'} ${props.scrollDir === 1 && 'scroll-out'} ${props.scrollDir === 2 && 'scroll-in'}`}>
             <nav className='nav_StyledNav'>
                 <div className='nav_StyledLinks'>
                     <ol>
@@ -18,7 +18,7 @@ function HeaderBar() {
                         </li>
                     </ol>
                     <div>
-                        <a class='resume-button' href={`${process.env.PUBLIC_URL}/assets/files/resume/Bradley Potzka Resume.pdf`} target={"_blank"} rel='noreferrer'>Resume</a>
+                        <a className='resume-button' href={`${process.env.PUBLIC_URL}/assets/files/resume/Bradley Potzka Resume.pdf`} target={"_blank"} rel='noreferrer'>Resume</a>
                     </div>
                 </div>
                 <div className='nav_StyledImages'>
@@ -44,7 +44,7 @@ function HeaderBar() {
                                 </div>
                             </div>
                         </button>
-                        
+
                     </div>
                 </div>
             </nav>

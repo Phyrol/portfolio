@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Home from './HomePage/Home';
-import HeaderBar from './Shared/HeaderBar/HeaderBar';
 import Footer from './Shared/Footer/Footer';
+import HeaderBarContainer from './Shared/HeaderBar/container/HeaderBarContainer';
 
 function App() {
   return (
     <div id='root'>
       <div className='layout_StyledContent'>
-        <HeaderBar />
+        <HeaderBarContainer />
         <Home />
         <Footer />
       </div>
