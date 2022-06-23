@@ -11,7 +11,7 @@ function Footer() {
                     </a>
                 </div>
                 <div>
-                    <a href='https://brittanychiang.com/#about' target={"_blank"} rel='noreferrer'>
+                    <a href='https://brittanychiang.com/' target={"_blank"} rel='noreferrer'>
                         Design Inspired by Brittany Chiang
                     </a>
                 </div>
