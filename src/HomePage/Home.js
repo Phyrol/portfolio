@@ -7,7 +7,7 @@ import Work from '../Shared/Work/Work';
 
 function Home() {
     return (
-        <main className='hero_container'>
+        <main className='hero_container fillHeight'>
             <section id='header' className='hero_StyledHeroSection'>
                 <div>
                     <h1>Hi, my name is</h1>
