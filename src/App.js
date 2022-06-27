@@ -6,12 +6,18 @@ import HeaderBarContainer from './Shared/HeaderBar/container/HeaderBarContainer'
 
 function App() {
   return (
-    <div id='root'>
-      <div className='layout_StyledContent'>
-        <HeaderBarContainer />
-        <Home />
-        <Footer />
+    <div className='layout_StyledContent'>
+      <HeaderBarContainer />
+      <div className='left-test'>
+
       </div>
+      <div className='right-test'>
+
+      </div>
+      <div id='content'>
+        <Home />
+      </div>
+      <Footer />
     </div>
   );
 }
