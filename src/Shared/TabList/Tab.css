@@ -29,13 +29,6 @@
     background-color: var(--light-space-cadet);
 }
 
-@media (max-width: 768px)
-{
-    .job-button {
-        padding: 0px 15px 2px;
-    }
-}
-
 @media (max-width: 600px) {
     .job-button {
         display: flex;
