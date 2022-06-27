@@ -154,4 +154,14 @@ section {
     main.fillHeight {
         padding: 0px 25px;
     }
+
+    .hero_StyledHeroSection h1 {
+        margin: 0px 0px 20px 2px;
+    }
+}
+
+@media (max-width: 480px) and (min-height: 700px) {
+    .hero_StyledHeroSection {
+        padding-bottom: 10vh;
+    }
 }
