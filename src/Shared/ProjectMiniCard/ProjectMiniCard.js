@@ -14,7 +14,7 @@ function ProjectMiniCard(props) {
 
     let infoDisplay =
         <div className='content'>
-            <div className='d-flex align-items-center'>
+            <div className='proj-header'>
                 <h3 className='title'>
                     <a href={`${props.download}`} target={"_blank"} rel='noreferrer'>
                         {props.title}

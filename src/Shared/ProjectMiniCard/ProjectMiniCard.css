@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+.proj-header {
+    display: flex;
+    align-items: center;
+}
+
 .title {
     font-size: clamp(24px, 5vw, 28px);
     color: var(--amranth-red);
@@ -82,4 +87,38 @@
 
 .project-links a:hover {
     color: var(--imperial-red);
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        display: block;
+    }
+
+    .content {
+        text-align: left;
+        padding-right: 10px;
+    }
+
+    .thumbnail img {
+        max-width: 80%;
+    }
+
+    .project-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .project-links span {
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    .proj-header {
+        display: block;
+    }
+
+    .tools {
+        padding-left: 0px;
+    }
 }

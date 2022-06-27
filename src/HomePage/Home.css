@@ -164,6 +164,10 @@ section {
     .hero_StyledAboutSection .section_container {
         display: block;
     }
+
+    .project-list-item:not(:last-of-type) {
+        margin-bottom: 70px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -188,6 +192,10 @@ section {
     .numbered-heading::before {
         margin-bottom: -3px;
         margin-right: 5px;
+    }
+    
+    .project-list-item:not(:last-of-type) {
+        margin-bottom: 30px;
     }
 }
 
