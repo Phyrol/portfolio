@@ -35,3 +35,18 @@
         padding: 0px 15px 2px;
     }
 }
+
+@media (max-width: 600px) {
+    .job-button {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        min-width: 120px;
+        padding: 0px 15px;
+        border-left: 0px;
+        border-bottom: 2px solid var(--lightest-space-cadet);
+        text-align: center;
+    }
+}

@@ -18,14 +18,35 @@
     z-index: 6;
 }
 
+@media (min-width: 700px) {
+    .work {
+        min-height: 340px;
+    }
+}
+
 @media (max-width: 600px) {
     .work {
         display: block;
     }
+
+    .job-tabs {
+        display: flex;
+        overflow-x: auto;
+        width: calc(100% + 100px);
+        padding-left: 50px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .job-panels {
+        margin-left: 0px;
+    }
 }
 
-@media (min-width: 700px) {
-    .work {
-        min-height: 340px;
+@media (max-width: 480px) {
+    .job-tabs {
+        width: calc(100% + 50px);
+        padding-left: 25px;
+        margin-left: -25px;
     }
 }
