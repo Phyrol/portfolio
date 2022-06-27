@@ -142,11 +142,33 @@ section {
     main.fillHeight {
         padding: 0px 100px;
     }
+
+    .numbered-heading::after {
+        width: 200px;
+    }
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
     main.fillHeight {
         padding: 0px 50px;
+    }
+
+    section {
+        padding: 80px 0px;
+    }
+
+    .numbered-heading::after {
+        width: 100%;
+    }
+
+    .hero_StyledAboutSection .section_container {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .numbered-heading::after {
+        margin-left: 10px;
     }
 }
 
@@ -157,6 +179,15 @@ section {
 
     .hero_StyledHeroSection h1 {
         margin: 0px 0px 20px 2px;
+    }
+
+    section {
+        padding: 60px 0px;
+    }
+
+    .numbered-heading::before {
+        margin-bottom: -3px;
+        margin-right: 5px;
     }
 }
 

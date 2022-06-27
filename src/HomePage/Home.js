@@ -22,7 +22,7 @@ function Home() {
             </section>
             
             <section id='about' className='hero_StyledAboutSection'>
-                    <h2 className='numbered-heading'>About Me</h2>
+                <h2 className='numbered-heading'>About Me</h2>
                 <div className='section_container'>
                     <AboutMe />
                 </div>
