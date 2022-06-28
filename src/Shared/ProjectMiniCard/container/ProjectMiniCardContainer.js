@@ -120,7 +120,7 @@ function ProjectMiniCardContainer(props) {
 
 return (
     <ul className='project-list'>
-        {
+        {allProjects && 
             allProjects.map((job, index) => 
                 <ProjectMiniCard 
                     key={index}

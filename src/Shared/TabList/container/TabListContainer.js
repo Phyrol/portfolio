@@ -5,7 +5,7 @@ function TabListContainer(props) {
 
     return(
         <div>
-            {
+            {props.allJobs &&
                 props.allJobs.map((element, index) =>
                     <Tab 
                         key={index}
