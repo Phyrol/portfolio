@@ -58,14 +58,10 @@ function ProjectMiniCard(props) {
         </div>
 
 return(
-    <div className='project-card'>
-            {props.imageIsLeft ?
-                thumbnailDisplay : infoDisplay
-            }
-            {props.imageIsLeft ?
-                infoDisplay : thumbnailDisplay
-            }
-    </div>
+    <li className='project-card'>
+        {infoDisplay}
+        {thumbnailDisplay}
+    </li>
 );
 }
 

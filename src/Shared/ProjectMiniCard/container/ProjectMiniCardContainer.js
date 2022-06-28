@@ -116,22 +116,30 @@ const allProjects = [
 
 function ProjectMiniCardContainer(props) {
     
-let cardObj = allProjects[props.proj];
+//let cardObj = allProjects[props.proj];
 
 return (
-    <ProjectMiniCard 
-        src={cardObj.thumbnail} 
-        title={cardObj.title} 
-        tools={cardObj.tools} 
-        shipped={cardObj.shipped} 
-        teamSize={cardObj.teamSize} 
-        platform={cardObj.platform} 
-        position={cardObj.position} 
-        genre={cardObj.genre} 
-        github={cardObj.github}
-        download={cardObj.download}
-        imageIsLeft={props.proj % 2 === 0 ? true : false}
-    />
+    <ul className='project-list'>
+        {
+            allProjects.map((job, index) => 
+                <ProjectMiniCard 
+                    key={index}
+                    src={job.thumbnail} 
+                    title={job.title} 
+                    tools={job.tools} 
+                    shipped={job.shipped} 
+                    teamSize={job.teamSize} 
+                    platform={job.platform} 
+                    position={job.position} 
+                    genre={job.genre} 
+                    github={job.github}
+                    download={job.download}
+                />
+                
+            )
+        }
+    </ul>
+    
 );
 
 }

@@ -133,7 +133,7 @@ section {
     margin: 0px;
 }
 
-.project-list-item:not(:last-of-type) {
+.project-list .project-card:not(:last-of-type) {
     margin-bottom: 180px;
 }
 

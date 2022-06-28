@@ -37,7 +37,8 @@ function Home() {
                 
                 <h2 className='numbered-heading'>Projects</h2>
 
-                <ul className='project-list'>
+                <ProjectMiniCardContainer />
+                {/* <ul className='project-list'>
                     <li className='project-list-item'>
                         <ProjectMiniCardContainer proj={0} />
                     </li>
@@ -65,7 +66,7 @@ function Home() {
                     <li className='project-list-item'>
                         <ProjectMiniCardContainer proj={8} />
                     </li>
-                </ul>
+                </ul> */}
             </section>
         </main>
     );
