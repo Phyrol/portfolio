@@ -9,13 +9,13 @@ function HeaderBar(props) {
                 <div className='nav_StyledLinks'>
                     <ol>
                         <li style={{transitionDelay: 0}}>
-                            <a href='/#about'>About</a>
+                            <a href='#about'>About</a>
                         </li>
                         <li style={{transitionDelay: 100}}>
-                            <a href='/#work'>Experience</a>
+                            <a href='#work'>Experience</a>
                         </li>
                         <li style={{transitionDelay: 200}}>
-                            <a href='/#projects'>Projects</a>
+                            <a href='#projects'>Projects</a>
                         </li>
                     </ol>
                     <div>

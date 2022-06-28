@@ -15,13 +15,13 @@ function HamburgerMenu(props) {
                     <nav>
                         <ol>
                             <li>
-                                <a onClick={props.onClick} href='/#about'>About</a>
+                                <a onClick={props.onClick} href='#about'>About</a>
                             </li>
                             <li>
-                                <a onClick={props.onClick} href='/#work'>Experience</a>
+                                <a onClick={props.onClick} href='#work'>Experience</a>
                             </li>
                             <li>
-                                <a onClick={props.onClick} href='/#projects'>Projects</a>
+                                <a onClick={props.onClick} href='#projects'>Projects</a>
                             </li>
                         </ol>
                         <a className='resume-button' href={`${process.env.PUBLIC_URL}/assets/files/resume/Bradley Potzka Resume.pdf`} target={"_blank"} rel='noreferrer'>Resume</a>
