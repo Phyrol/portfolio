@@ -200,6 +200,6 @@ section {
 
 @media (max-width: 480px) and (min-height: 700px) {
     .hero_StyledHeroSection {
-        padding-bottom: 10vh;
+        padding-bottom: 0px;
     }
 }
