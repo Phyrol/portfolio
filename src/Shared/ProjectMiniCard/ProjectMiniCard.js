@@ -59,8 +59,8 @@ function ProjectMiniCard(props) {
 
 return(
     <li className='project-card'>
-        {infoDisplay}
         {thumbnailDisplay}
+        {infoDisplay}
     </li>
 );
 }

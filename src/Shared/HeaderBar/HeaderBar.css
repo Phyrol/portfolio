@@ -168,10 +168,11 @@
         padding: 0px 25px;
     }
 
-    .nav_StyledLinks {
-        display: none;
-    }
     .nav_StyledImages {
+        margin:auto;
+    }
+
+    .nav_StyledLinks {
         display: none;
     }
 
