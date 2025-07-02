@@ -5,25 +5,26 @@ function AboutMe() {
     return (
         <div className='about_me'>
             <div>
-            <p>I am a passionate programmer with a focus on systems engineering. 
-                I have experience with Unreal Engine 4 and Unity game engine working on a variety of projects ranging in different designs. 
-                As a team lead for those different projects, I enforced best practices in revision control and Agile development.
+            <p>Results-driven Frontend Engineer with experience building scalable and intuitive web applications at Amazon. 
+                Demonstrated ability to lead complex projects end-to-end, mentor cross-functional teams, and improve system reliability and customer experience. 
+                Skilled in TypeScript, JavaScript, React, Cypress, and AWS tools. 
+                Adept at problem-solving in ambiguous environments, driving process improvements, and implementing performance-optimized UI features.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
             </div>
 
             <ul className='skills-list'>
                 <li>
+                    TypeScript
+                </li>
+                <li>
                     React
                 </li>
                 <li>
-                    JavaScript
+                    Redux
                 </li>
                 <li>
-                    HTML
-                </li>
-                <li>
-                    C#
+                    SQL
                 </li>
             </ul>
         </div>
