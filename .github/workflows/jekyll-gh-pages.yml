@@ -41,7 +41,7 @@ jobs:
         run: npm ci
 
       - name: Build the React app
-        run: npm run build
+        run: CI='' npm run build
 
       - name: Add CNAME and .nojekyll
         run: |
