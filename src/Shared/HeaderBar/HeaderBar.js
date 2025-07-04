@@ -24,16 +24,16 @@ function HeaderBar(props) {
                 </div>
                 <div className='nav_StyledImages'>
                     <a href="mailto:bradleypotzka39@gmail.com" target={"_blank"} rel='noreferrer'>
-                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/Mail/mail.png`} />
+                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/Mail/mail.png`} alt='Email image' />
                     </a>
                     <a href="https://github.com/Phyrol" target={"_blank"} rel='noreferrer'>
-                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png`} />
+                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png`} alt='GtiHub image' />
                     </a>
                     <a href="http://phyrol.itch.io/" target={"_blank"} rel='noreferrer'>
-                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/Itchio/logos/itchio-logo-textless-white.png`} />
+                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/Itchio/logos/itchio-logo-textless-white.png`} alt='Itch.io image' />
                     </a>
                     <a href="https://www.linkedin.com/in/bradleypotzka/" target={"_blank"} rel='noreferrer'>
-                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/LinkedIn/linkedIn.png`} />
+                        <img className='header-image' src={`${process.env.PUBLIC_URL}/assets/images/socials/LinkedIn/linkedIn.png`} alt='linkedIn image' />
                     </a>
                 </div>
 
