@@ -7,7 +7,7 @@ function ProjectMiniCard(props) {
     let thumbnailDisplay =
         <div className='thumbnail'>
             <a href={`${props.download}`} target={"_blank"} rel='noreferrer'>
-                <img src={props.src} alt='Download project thumbnail' />
+                <img src={props.src} alt='Download project' />
             </a> 
         </div>
                    
