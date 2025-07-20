@@ -45,7 +45,7 @@ jobs:
 
       - name: Add CNAME and .nojekyll
         run: |
-          echo "bradleypotzka.com" > build/CNAME
+          echo "v1.bradleypotzka.com" > build/CNAME
           touch build/.nojekyll
 
       - name: Upload built site to Pages
